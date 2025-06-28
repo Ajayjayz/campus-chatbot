@@ -1,0 +1,95 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - admission_info
+  - admission_fee
+  - tuition_fee
+  - courses
+  - btech_courses
+  - mba_courses
+  - placements
+  - hostel
+  - transport
+  - id_card
+  - exams
+  - thanks
+
+responses:
+  utter_greet:
+    - text: "🤖 Hello! I'm your campus assistant. How can I help you today?"
+
+  utter_goodbye:
+    - text: "👋 Goodbye! Have a great day."
+
+  utter_affirm:
+    - text: "👍 Got it!"
+
+  utter_deny:
+    - text: "🙁 Okay, let me know if you change your mind."
+
+  utter_mood_great:
+    - text: "😊 Glad to hear you're doing great!"
+
+  utter_mood_unhappy:
+    - text: "😔 Sorry to hear that. I'm here to help if you need anything."
+
+  utter_bot_challenge:
+    - text: "🤖 I'm a helpful chatbot created to guide you through campus info!"
+
+  utter_admission_info:
+    - text: "📌 You can apply online at www.college.edu/admissions. Admissions usually open in June."
+
+  utter_admission_fee:
+    - text: "💰 Admission fee is ₹5,000 (one-time), paid during enrollment."
+
+  utter_tuition_fee:
+    - text: |
+        💸 Tuition Fees:
+        • Arts/Science: ₹45,000/year  
+        • Commerce: ₹50,000/year  
+        • Engineering: ₹75,000/year  
+        • MBA: ₹90,000/year
+
+  utter_courses:
+    - text: "🎓 We offer BSc, BCom, BTech, MBA, BA, LLB and more. What are you interested in?"
+  
+  utter_btech_courses:
+    - text: "📚 Our BTech programs include CSE, ECE, Civil, Mechanical, and AI & ML."
+  
+  utter_ba_courses:
+    - text: "📘 BA offers subjects like English, History, Political Science, and Psychology."
+
+  utter_llb_courses:
+    - text: "⚖️ LLB includes Criminal Law, Constitutional Law, Corporate Law, etc."
+
+  utter_mba_courses:
+    - text: "🎓 MBA specializations: HR, Finance, Marketing, International Business, and Systems."
+
+  utter_placements:
+    - text: "📈 Our placement cell has 90% success. Top recruiters offer up to ₹12 LPA."
+
+  utter_hostel:
+    - text: "🏠 Yes, hostel facilities are available. Fee is ₹30,000/year with vegetarian food."
+
+  utter_transport:
+    - text: "🚌 We provide daily college bus service from major city points."
+
+  utter_id_card:
+    - text: "🆔 ID cards are issued post-admission at the admin block. Bring a photo."
+
+  utter_exams:
+    - text: "📝 Exams are held every semester — May and December typically."
+
+  utter_thanks:
+    - text: "🙏 You're welcome! Let me know if you have more questions."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

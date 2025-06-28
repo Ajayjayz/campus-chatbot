@@ -1,0 +1,113 @@
+version: "3.1"
+
+rules:
+
+- rule: Say hello
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- rule: Say goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- rule: Say thanks
+  steps:
+    - intent: thanks
+    - action: utter_thanks
+
+- rule: Respond to bot challenge
+  steps:
+    - intent: bot_challenge
+    - action: utter_bot_challenge
+
+- rule: Admission info
+  steps:
+    - intent: admission_info
+    - action: utter_admission_info
+
+- rule: Admission fee
+  steps:
+    - intent: admission_fee
+    - action: utter_admission_fee
+
+- rule: Tuition fee
+  steps:
+    - intent: tuition_fee
+    - action: utter_tuition_fee
+
+- rule: Courses offered
+  steps:
+    - intent: courses
+    - action: utter_courses
+
+- rule: Give BA info
+  steps:
+  - intent: ba_courses
+  - action: utter_ba_courses
+
+- rule: Give LLB info
+  steps:
+  - intent: llb_courses
+  - action: utter_llb_courses
+
+- rule: Provide BTech info
+  steps:
+  - intent: btech_courses
+  - action: utter_btech_courses
+
+- rule: Provide MBA info
+  steps:
+  - intent: mba_courses
+  - action: utter_mba_courses
+
+- rule: List all courses
+  steps:
+  - intent: courses
+  - action: utter_courses
+
+- rule: Placement info
+  steps:
+    - intent: placements
+    - action: utter_placements
+
+- rule: Hostel info
+  steps:
+    - intent: hostel
+    - action: utter_hostel
+
+- rule: Transport
+  steps:
+    - intent: transport
+    - action: utter_transport
+
+- rule: ID card info
+  steps:
+    - intent: id_card
+    - action: utter_id_card
+
+- rule: Exam dates
+  steps:
+    - intent: exams
+    - action: utter_exams
+
+- rule: Happy mood
+  steps:
+    - intent: mood_great
+    - action: utter_mood_great
+
+- rule: Unhappy mood
+  steps:
+    - intent: mood_unhappy
+    - action: utter_mood_unhappy
+
+- rule: Affirmation
+  steps:
+    - intent: affirm
+    - action: utter_affirm
+
+- rule: Denial
+  steps:
+    - intent: deny
+    - action: utter_deny

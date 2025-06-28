@@ -1,0 +1,204 @@
+version: "3.1"
+
+nlu:
+
+# ✅ Greetings and General
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+# 🎓 College-Specific Intents
+- intent: admission_info
+  examples: |
+    - how can I apply?
+    - when is admission open?
+    - admission procedure
+    - process for admission
+    - I want to join the college
+
+- intent: btech_courses
+  examples: |
+    - what are the BTech specializations?
+    - tell me about engineering branches
+    - i am interested in BTech
+    - BTech course details
+    - engineering course information
+    - tell me about BTech
+    - which engineering fields are available?
+
+- intent: mba_courses
+  examples: |
+    - what are the MBA specializations?
+    - tell me about MBA program
+    - I would like to know about MBA
+    - what are MBA options?
+    - give me MBA details
+    - MBA information
+    - what are the subjects in MBA?
+
+- intent: ba_courses
+  examples: |
+    - tell me about BA
+    - I want to join BA
+    - what is BA course?
+
+- intent: llb_courses
+  examples: |
+    - is LLB available?
+    - tell me about law course
+    - LLB program details
+
+- intent: admission_fee
+  examples: |
+    - admission fee
+    - what is the registration cost?
+    - how much for admission?
+    - joining fee details
+    - entrance fee
+
+- intent: tuition_fee
+  examples: |
+    - tuition fees
+    - yearly fees
+    - total course cost
+    - program fees
+    - fee structure
+
+- intent: courses
+  examples: |
+    - what courses do you offer?
+    - list of programs
+    - show all available courses
+    - what programs are offered?
+    - list your college courses
+    - what departments are there?
+
+- intent: placements
+  examples: |
+    - do you have placements?
+    - what is the average package?
+    - placement record?
+    - top recruiters?
+    - job support after course?
+
+- intent: hostel
+  examples: |
+    - is hostel available?
+    - hostel facilities?
+    - what is the hostel fee?
+    - hostel food quality?
+    - is hostel compulsory?
+
+- intent: transport
+  examples: |
+    - is there a bus facility?
+    - transport available?
+    - college bus timing?
+    - do you provide pickup and drop?
+
+- intent: id_card
+  examples: |
+    - how to get college ID?
+    - I lost my ID card
+    - ID card application
+    - where is the ID counter?
+
+- intent: exams
+  examples: |
+    - when are the exams?
+    - exam schedule
+    - internal and external exams
+    - when is next semester exam?
+
+- intent: thanks
+  examples: |
+    - thanks
+    - thank you
+    - appreciate it
+    - great help
+    - thanks a lot
